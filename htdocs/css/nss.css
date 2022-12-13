@@ -1,0 +1,27 @@
+header, footer {
+    text-align: center
+}
+
+h1 {
+
+    text-shadow: 2px 2px 2px #000;
+
+    margin: 1em 0 0 0
+}
+
+p.nss {
+    display: flex;
+
+    font-family: 'Bree Serif', serif;
+    font-size: 10em;
+
+    align-items: center;
+    justify-content: center;
+
+    background: url(../images/finished-logo.png) center center/256px 222px no-repeat;
+
+    width: 256px; /* Half of the intrinsic image width. */
+    height: 222px; /* Half of the intrinsic image height. */
+
+    opacity: 0.75
+}
