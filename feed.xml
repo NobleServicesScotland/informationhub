@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Noble Services Scotland</title>
   <subtitle>Information services for IT and AIG.</subtitle>
-  <link href="http://localhost:8080/components/"/>
-  <link href="http://localhost:8080/feed.xml" rel="self"/>
+  <link href="https://www.nobleservicesscotland.com/components/"/>
+  <link href="https://www.nobleservicesscotland.com/feed.xml" rel="self"/>
   <updated>2022-12-15T10:51:33Z</updated>
-  <id>http://localhost:8080/components/</id>
+  <id>https://www.nobleservicesscotland.com/components/</id>
   <author>
     <name>Michal Gow</name>
   </author>
