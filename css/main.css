@@ -1372,7 +1372,6 @@ h2.it {
 .page-header {
   z-index: 6;
   background-color: var(--color-bg, #fff);
-  box-shadow: 0 2px 1px -1px hsl(var(--shadow-color)/calc(var(--shadow-weight) + 18%)), 0 1px 1px hsl(var(--shadow-color)/calc(var(--shadow-weight) + 12%)), 0 1px 3px hsl(var(--shadow-color)/calc(var(--shadow-weight) + 10%));
 }
 
 #offcanvas-menu {
@@ -1385,8 +1384,6 @@ h2.it {
   border-top-left-radius: clamp(2rem, 4vw, 3rem);
   padding-top: clamp(1.5rem, 3vw, 2rem);
   padding-bottom: clamp(1rem, 2vw, 1.5rem);
-  background-color: var(--footer-bg, var(--color-theme));
-  color: var(--footer-color, var(--color-on-theme));
 }
 @media (min-width: 640px) and (max-width: 1439px) {
   .page-footer {
@@ -14454,4 +14451,18 @@ h2.it {
   .xxl-divide-x-none > :not([hidden], template) ~ :not([hidden], template) {
     border-inline-start-width: 0;
   }
+}
+
+h1 span.text {
+    padding: 0;
+    padding-right: 4px;
+    border-right: 2px solid #747474;
+    animation: blink 0.75s infinite;
+}
+
+span.text.blue {
+    color: #4480ff;
+}
+span.text.green {
+    color: #4caf50;
 }
